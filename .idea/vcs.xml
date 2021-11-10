@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Custom-stylish-Activity-Indicator-Xamarin-Forms" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Xamarin.Forms.GoogleMaps" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/XamarinTest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/XamarinTest/XamarinTest" vcs="Git" />
+  </component>
+</project>

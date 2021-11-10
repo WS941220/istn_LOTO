@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kr.co.istn.loto">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="kr.co.istn.BaseApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LOTO"
+        android:usesCleartextTraffic="true">
+        <service android:name="com.noke.nokemobilelibrary.NokeDeviceManagerService" android:enabled="true"/>
+        <meta-data android:name= "noke-core-api-mobile-key"
+            android:value= "eyJhbGciOiJOT0tFX01PQklMRV9TQU5EQk9YIiwidHlwIjoiSldUIn0.eyJhbGciOiJOT0tFX01PQklMRV9TQU5EQk9YIiwiY29tcGFueV91dWlkIjoiZTU2Nzc5ZDAtZDk4Yi00NjEzLTk3ZjUtYmFmMzA3ZmYxYzgzIiwiaXNzIjoibm9rZS5jb20ifQ.f05ba68cd1c64aa5419e9289476c43f14a27b902" />
+        <activity
+            android:name=".ui.activities.main.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
