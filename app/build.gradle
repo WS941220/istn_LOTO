@@ -73,6 +73,9 @@ dependencies {
 
     //noke
     implementation 'com.noke.nokemobilelibrary:nokemobilelibrary:0.6.6'
+
+    //imate
+    implementation project(path: ':ImateData')
 }
 
 kapt {

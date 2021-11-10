@@ -7,4 +7,5 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "LOTO"
+include ':ImateData'
 include ':app'
